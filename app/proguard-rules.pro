@@ -1,0 +1,4 @@
+-keep class com.purelive.app.data.model.** { *; }
+-keep class com.purelive.app.data.db.** { *; }
+-dontwarn okhttp3.**
+-dontwarn okio.**
